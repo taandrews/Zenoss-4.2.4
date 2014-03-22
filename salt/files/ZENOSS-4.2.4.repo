@@ -1,0 +1,6 @@
+[ZENOSS-4.2.4]
+name=ZENOSS-4.2.4
+baseurl=http://{{pillar['zenoss:fileserver']}}/salt-states/zenoss
+enabled=1
+gpgcheck=0
+
